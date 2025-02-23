@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # Provide your video file name (Ensure it's in the same folder as the script)
-video_path = "video.mp4"  # Change this to your actual video file
+video_path = "sampleVideo.mp4"  # Change this to your actual video file
 
 # Check if the video file exists
 if not os.path.exists(video_path):
