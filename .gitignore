@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Ignore environment variables and API keys
+.env
+*.env
+config.json
+
+# Ignore extracted frames and videos
+extracted_frames/
+sample_videos/
+
+# Ignore logs and cache
+logs/
+*.log
+*.sqlite3
+debug.log
+
+# Ignore VSCode settings (optional)
+.vscode/
